@@ -25,7 +25,7 @@ const Projects = () => {
 							<li>CSS</li>
 							<li>Heroku</li>
 						</ul>
-						<p>
+						<p className="github-link">
 							<a href="https://github.com/n-roth12/FFB-Draft-App">Github Repo</a>
 						</p>
 					</div>
@@ -36,8 +36,8 @@ const Projects = () => {
 						<img src={image2} alt="Project 2" />
 					</a>
 						<div className="description">
-							<h3 className="text-3xl justify-center text-gray-100">Fantasy Football API</h3>
-							<p className="text-gray-100">A REST API for retrieving statistics about fantasy football perfomances</p>
+							<h3>Fantasy Football API</h3>
+							<p>A REST API for retrieving statistics about fantasy football perfomances</p>
 							<ul className="tools">
 								<li>Python</li>
 								<li>Flask</li>
@@ -46,7 +46,7 @@ const Projects = () => {
 								<li>CSS</li>
 								<li>Heroku</li>
 							</ul>
-							<p>
+							<p className="github-link">
 								<a href="https://github.com/n-roth12/Football-REST-API">Github Repo</a>
 							</p>
 						</div>

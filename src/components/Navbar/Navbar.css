@@ -31,9 +31,9 @@ a {
 
 .name {
 	color: white;
-	font-size: 30pt;
+	font-size: 25pt;
 	margin-left: 40px;
-	padding: 10px;
+	padding: 15px;
 }
 
 @media only screen and (max-width: 600px) {

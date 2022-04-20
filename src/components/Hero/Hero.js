@@ -11,7 +11,7 @@ const Home = () => {
         <div className="header">
           <h1>Nolan Roth</h1>
           <hr />
-          <h2>Junior Full-Stack Software Developer</h2>
+          <h2>Back-End Software Developer</h2>
         </div>
         <div className="bio-wrapper">
     			<p className="bio">
@@ -25,10 +25,10 @@ const Home = () => {
         <div className="contact">
           <ul>
             <li>
-              <a href="">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/nolan-roth/">LinkedIn</a>
             </li>
             <li>
-              <a href="">Github</a>
+              <a href="https://github.com/n-roth12">Github</a>
             </li>
             <li>
               <a href={resume}>Resume</a>

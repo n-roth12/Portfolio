@@ -3,7 +3,7 @@ import './About.css'
 const About = () => {
   return (
   	<div className="about-wrapper">
-  		<h2>Technologies</h2>
+  		<h2>My Tools</h2>
 	    <div className="about">
   			<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" 
   				className="icon"/>

@@ -28,7 +28,7 @@ ul {
 	padding: 6px;
 	border: 1px solid grey;
 	border-radius: 10px;
-	color: grey;
+	color: #abb2ba;
 	margin: 4px;
 }
 
@@ -51,4 +51,9 @@ h3 {
 	color: white;
 	text-align: center;
 	margin-bottom: 10px;
+	font-size: 20pt;
+}
+
+.github-link {
+	text-align: center;
 }
