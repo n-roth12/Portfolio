@@ -1,0 +1,54 @@
+.projects {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-card {
+	margin: 40px;
+	border-radius: 5px;
+	width: 400px;
+}
+
+img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+ul {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	list-style: None;
+	margin-bottom: 10px;
+}
+
+.tools li {
+	padding: 6px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	color: grey;
+	margin: 4px;
+}
+
+.project-card p {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.project-card a {
+	color: #57a5fd;
+}
+
+.projects-wrapper h2 {
+	font-size: 25pt;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+}

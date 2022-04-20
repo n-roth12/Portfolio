@@ -1,0 +1,43 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	background-color: black;
+	margin-bottom: 20px;
+}
+
+.nav-items {
+	list-style: None;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 15pt;
+}
+
+a {
+	color: white;
+	text-decoration: None;
+}
+
+.nav-item {
+	color: #08fdd9;
+	border: None;
+	list-style: None;
+	margin-right: 3vw;
+}
+
+.name {
+	color: white;
+	font-size: 30pt;
+	margin-left: 40px;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav-items {
+		display: None;
+	}
+}
